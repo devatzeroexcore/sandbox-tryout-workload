@@ -7,6 +7,9 @@ export default defineConfig({
     host: true,
     port: 5173,
     strictPort: true,
+    // Sandbox preview URLs (sprites.app / trycloudflare.com) use dynamic
+    // hostnames, so allow any Host header for this throwaway tryout.
+    allowedHosts: true,
   },
   preview: {
     host: true,
