@@ -1,7 +1,7 @@
 export default function App() {
   return (
     <main style={{ fontFamily: "system-ui, sans-serif", padding: "2rem" }}>
-      <h1>Sandbox Tryout SPA</h1>
+      <h1>Sandbox Tryout SPA — feature/styling</h1>
       <p>
         Booted at <code>{new Date().toISOString()}</code>
       </p>
