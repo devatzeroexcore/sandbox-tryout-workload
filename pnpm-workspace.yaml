@@ -1,0 +1,3 @@
+# Standalone project: kept out of the monorepo's `packages/*` glob on purpose.
+# This empty workspace makes `pnpm install` from this directory self-contained.
+packages: []
